@@ -1,0 +1,292 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.nav-link{
+    font-size: 16px;
+    font-family: 'nunito', sans-serif;
+    font-weight: 500;
+    color: #0E0B2B;
+}
+
+.navbar{
+   padding: 25px 50px;
+    
+  
+}
+
+
+#About-us{
+    background-color: #03A9F440;
+}
+
+.nav-logo{
+    width: 166px;
+}
+
+
+
+
+/*---------Service-1----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------Service-1 End----------------- */
+
+
+#service-1{
+    background:  linear-gradient(rgba(3, 169, 244, 0.2),  rgba(3, 169, 244, 0));
+}
+
+.serv-1-text h1{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 43px;
+padding-top: 45px;
+max-width: 628px;
+
+color: #0E0B2B;
+}
+
+
+.serv-1-text p{
+    width: 628px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0B2B;
+    
+    
+}
+
+/*---------Service-2----------------- */
+
+.serve-2 h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    padding-top: 45px;
+    min-width: 628px;
+    padding-left: 281.36px;
+    color: #0E0B2B;
+    }
+    
+    
+    .serve-2 p{
+        padding-left: 281.36px;
+        min-width: 628px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0E0B2B;
+    }
+    
+  
+
+
+
+
+
+
+
+
+/*---------Service-2 End----------------- */
+
+
+
+
+
+/*---------Service-3----------------- */
+
+.serv-text-1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    padding-top: 223px;
+    width: 628px;
+    color: #0E0B2B;
+    }
+    
+    
+    .serv-text-2{
+        width: 628px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0E0B2B;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------Service-3 End----------------- */
+
+
+.serve-4 h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    padding-top: 45px;
+    min-width: 628px;
+    margin-bottom: 26px;
+    padding-left: 281.36px;
+    color: #0E0B2B;
+    }
+    
+    
+    .serve-4 p{
+        padding-left: 281.36px;
+        min-width: 628px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0E0B2B;
+    }
+
+
+
+
+
+
+
+
+
+/*---------Service-4----------------- */
+
+
+.serv-text-5 {
+    font-family: 'Quicksand',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    padding-top: 223px;
+    width: 628px;
+    
+    padding-bottom: 26px;
+    color: #0E0B2B;
+    }
+    
+    
+    .serv-text-p{
+        width: 628px;
+        font-family: 'Nunito',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0E0B2B;
+    }
+
+
+
+
+
+
+/*---------Service-4 End----------------- */
+
+
+
+
+
+
+/*---------Service-5----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------Service-5 End----------------- */
+
+
+
+
+
+
+
+/*---------Service-6----------------- */
+.serve-6 h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    padding-top: 45px;
+    min-width: 628px;
+    margin-bottom: 26px;
+    padding-left: 281.36px;
+    color: #0E0B2B;
+    }
+    
+    
+    .serve-6 p{
+        padding-left: 281.36px;
+        min-width: 628px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0E0B2B;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------Service-6 End----------------- */

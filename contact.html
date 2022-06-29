@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to GCET</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/about.css">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+ 
+  <!-- Nav bar -->
+
+
+  <nav class="navbar navbar-expand-lg bg-white py-3 ">
+    <div class="container-fluid fixed-top bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/gcet-logo.png" width="170px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-bs-toggle="navbarNav" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Who we are</a></li>
+              <li><a class="dropdown-item" href="#">Core Values</a></li>
+              <li><a class="dropdown-item" href="#">Vision</a></li>
+              <li><a class="dropdown-item" href="#">Approach</a></li>
+              <li><a class="dropdown-item" href="#">Process</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="solution.html" id="navbarDropdown" role="button" data-bs-toggle="navbarNav" aria-expanded="false">
+              Solutions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Enterprise Security Solutions & Services (ESSS)</a></li>
+              <li><a class="dropdown-item" href="#">Infrastructure Solutions & Services (ISS)</a></li>
+              <li><a class="dropdown-item" href="#">Business Service Management Solutions</a></li>
+              <li><a class="dropdown-item" href="#">Enterprise Networking Solutions</a></li>
+              <li><a class="dropdown-item" href="#">Cloud and Mobile Solutions</a></li>
+              <li><a class="dropdown-item" href="#">Business Enterprise Softwares</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Nav bar  End-->
+
+
+    <section id="contact-section" style="margin-left: -115px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <img src="./assets/img/Send us a mail.png" style="margin-top: 10em;">
+            </div>
+          </div>
+        </div>
+
+        <div id="form-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <form class="row g-3">
+                            <div class="form-flex">
+                              
+                              <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your name">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                              </div>
+
+                            </div>
+                            <div class="col-md-12">
+                              <label style="margin-top: 46px;" for="message" class="form-label">Your Message</label>
+                              <textarea class="form-control" id="textAreaExample1" rows="5" placeholder="Type your message here"></textarea>
+                            </div>
+                              <div>
+                                <button type="submit" class="btn-form">Send Message<i class="fa-solid fa-arrow-right"></i></button>
+                              </div>
+                            </div>
+                          </form>
+                          <div class="col-md-5">
+                            <img src="./assets/img/contact-img.png" style="margin-left: 213px; margin-bottom: 18em;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <style>
+      textarea{
+        min-width: 737px;
+        height: 251px;
+        border: #0E0B2B33 1px solid;
+      }
+
+      .form-flex{
+        display: flex;
+        gap: 90px;
+      }
+
+      input{
+        border: #0E0B2B33 1px solid;
+        height: 50px;
+        width: 335px;
+        border-radius: 4px;
+      }
+
+      label{
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .btn-form{
+        width: 183px;
+        margin-top: 46px;
+        background: #03A9F4;
+        color: #ffffff;
+        max-width: 184px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 14px;
+        text-decoration: none;
+        border: none;
+    
+        
+      }
+
+     
+
+
+
+   
+
+      
+    </style>
+
+
+
+<footer id="footer">
+  <div class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="./assets/img/logo-footer.png" style="width: 220px; margin-top: 20px; margin-bottom: -25px; margin-left: -20px;">
+          <div class="footer-text">
+            <p>Global Concept Emerge Technologies Limited has infrastructure, network & security certified experts
+              and specialists in these business IT solutions.
+            </p>
+          </div>
+         <div class="copy-right">
+          <p> &copy;Copyrights GCET. All rights reserved.</p>
+         </div>
+        
+        </div>
+        
+        <div class="col-md-5" style="margin-left:80px;">
+          <img src="./assets/img/Solutions.png" style="margin-top: 80px; margin-left: 30px;">
+          <br>
+          <br>
+          
+          <ul style="list-style: none; line-height: 2em; font-family: 500;">
+            <li>Enterprise Security Solutions & Services</li>
+            <li>Infrastructure Solutions & Services</li>
+            <li>Business Service Management</li>
+            <li>Enterprise Networking Solutions</li>
+            <li>Cloud and Mobile Solutions</li>
+            <li>Business Enterprise Software</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+
+         <img src="./assets/img/Contact Us.png" style="margin-top: 80px; margin-bottom: 25px;">
+          
+         <div class="icons">
+           <div class="icon-links">
+            <img src="./assets/img/Vector p.png" alt="">
+            <span>+234 1 2719173</span>
+           </div>
+
+           <div class="icon-links">
+            <img src="./assets/img/Vector (2).png" alt="">
+            <span>info@gcetng.com</span>
+           </div>
+
+           <div class="icon-links">
+            <img src="./assets/img/Vector (3).png" alt="">
+            <span>5th floor, Mulliner Towers,</span>
+            <span> 39 Alfred Rewane
+              Road, Ikoyi, Lagos.</span>
+           </div>
+         </div>
+          
+        
+        </div>
+        
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+</footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+      <script src="./assets/js/all.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
